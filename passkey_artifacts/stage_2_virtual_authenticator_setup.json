@@ -1,0 +1,20 @@
+{
+    "stage": 2,
+    "title": "Virtual Authenticator Setup",
+    "description": "Chrome DevTools Protocol (CDP) commands are sent to create an auto-responding FIDO2 authenticator.",
+    "details": {
+        "CDP_Command": "WebAuthn.addVirtualAuthenticator",
+        "authenticator_options": {
+            "protocol": "ctap2",
+            "transport": "internal",
+            "hasUserVerification": true,
+            "isUserVerified": true,
+            "hasResidentKey": true,
+            "automaticPresenceSimulation": true
+        }
+    },
+    "timestamp": "2026-07-15T21:46:39Z",
+    "captured_payload": {
+        "authenticatorId": "fc7f1d00-3dc3-402c-9b3c-5da5b82cc0eb"
+    }
+}

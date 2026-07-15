@@ -1,0 +1,18 @@
+{
+    "stage": 4,
+    "title": "Registered Passkey Artifact",
+    "description": "The resulting FIDO credential artifact stored within the Authenticator containing the public key credentials.",
+    "details": {
+        "total_credentials_in_authenticator": 1
+    },
+    "timestamp": "2026-07-15T21:46:44Z",
+    "captured_payload": [
+        {
+            "credentialId_base64": "xK2U4uBmrbYo/pQdA3Q6VBmhnHyaXP6/bnAVC3X3m3E=",
+            "isResidentKey": null,
+            "rpId": "webauthn.io",
+            "userHandle_base64": "d2ViYXV0aG5pby10ZXN0dXNlcl8xNzg0MTUxOTk5",
+            "signCount": 1
+        }
+    ]
+}

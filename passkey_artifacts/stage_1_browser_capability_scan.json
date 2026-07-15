@@ -1,0 +1,14 @@
+{
+    "stage": 1,
+    "title": "Browser Capability Scan",
+    "description": "Scans the browser context to verify if PublicKeyCredential API is exposed.",
+    "details": {
+        "browser": "Chrome Headless",
+        "PublicKeyCredential_Declared": true,
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/150.0.0.0 Safari/537.36"
+    },
+    "timestamp": "2026-07-15T21:46:39Z",
+    "captured_payload": {
+        "PublicKeyCredential": true
+    }
+}
