@@ -159,3 +159,7 @@ Cloud-synced passkeys trade device-isolation for multi-device recovery by synchr
    * **On Chrome:** Go to `chrome://settings/passwords` and verify your passkey for `webauthn.io` is saved in the Google Password Manager cloud list.
    * **On macOS/iOS:** Go to **System Settings** > **Passwords** to view the entry saved under your iCloud Keychain.
    * *Note:* The private key is wrapped with end-to-end encryption based on your lock screen passcode before syncing, keeping it private from the cloud hosting provider.
+
+
+## 🛡️ Security & Cryptographic Posture
+This project tracks Software & Cryptographic Bill of Materials (SBOM & CBOM) and Post-Quantum Cryptography (PQC) readiness. See the latest [Cryptographic Audit & PQC Migration Report](docs/security/CRYPTOGRAPHIC_AUDIT.md).
