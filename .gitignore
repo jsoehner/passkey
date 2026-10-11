@@ -11,3 +11,7 @@ env/
 .DS_Store
 .idea/
 .vscode/
+
+# Build & Supply Chain Artifacts
+oss/
+
